@@ -1,0 +1,80 @@
+body{
+    font-family:'segoe UT',Tahoma,sans-serif;
+    margin:0;
+    padding:0;
+    background:#19012e;
+    color:  #bfa6df;
+    line-height:1.6;}
+
+html{scroll-behavior: smooth;}
+
+header{
+    background:#19012e;
+    padding: 1rem;
+    text-align: center;}
+
+a{
+margin:10px;
+color:  #bfa6df;
+font-weight: bold;}
+
+main{padding: 2rem;}
+
+img{border-radius:15px;}
+
+div{padding-left:2rem ;}
+
+h1{text-align: center;}
+
+/* Basic nav styles */
+nav {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color:  #bfa6df;
+  font-weight: bold;
+}
+
+/* Hamburger icon (hidden on desktop) */
+.nav-toggle {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Mobile styles */
+@media (max-width: 600px) {
+  .nav-toggle {
+    display: block;
+    text-align: right;
+    padding: 0.5rem 1rem;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav ul.show {
+    display: flex;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+}

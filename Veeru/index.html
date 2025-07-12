@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Veeru</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header>
+        <h1>Hey, I am Kariveerayya👋</h1>
+        <img src="kv.jpg" alt="KV" width="11.5%" height="30%">
+        <h3>A Toddler in digital world</h3>
+        <nav>
+        <div class="nav-toggle" onclick="toggleMenu()">☰</div>
+        <ul id="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#beyond">Beyond the screen</a></li>
+        </ul>
+        <script>
+        function toggleMenu() {
+        const navLinks = document.getElementById("nav-links");
+        navLinks.classList.toggle("show");
+        }
+        </script>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h3>Welcome to my digital space!</h3>
+            <h3>I am trying learn...</h3>
+        </section>
+    </main>
+    <div id="about">
+    <h1 style="text-align: center;">About me</h1>
+    <p>Currently preparing myself for coding</p></div>
+    <div id="project">
+        <h1>Projects</h1>
+        <a href="calc.html">Calculator</a>
+    </div>
+</html>
